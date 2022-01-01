@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		
+	</head>
+	<body>
+	<div class='kg'>
+		<h1>Login</h1>
+		<hr/>
+		<form action="/APIv1">
+		<input name='method' value="get" type="hidden">
+		<input type="text"1 placeholder="enter your username" name="data">
+		<input type="submit">
+		</form>
+	</div>
+	<style>
+	body{
+		background-color:#006600;
+		
+	}
+	.kg{
+		background-color:white;
+		padding-left:4px;
+		padding-right:4px;
+		padding-bottom:20px;
+		padding-top:4px;
+		border-radius:20px;
+		text-align:center;
+		border: #cc3399;
+	}
+	h1{
+		margin:0px 0px 0px;
+		border-radius:20px;
+		background-color:#ff99ef;
+		}
+	
+	</style>
+	<script>
+	var d
+		function post(uri){
+	var s =new XMLHttpRequest();
+
+	s.onreadystatechange =()=>{
+		if(s.readyState = 4){
+			s.open('POST',uri);
+			s.send();
+			s.setRequestHeader("Content-type","application/x-www-form-urlencoded")
+			S.send(uri)
+		}
+	}
+}
+	</script>
+	</body>
+</html>
